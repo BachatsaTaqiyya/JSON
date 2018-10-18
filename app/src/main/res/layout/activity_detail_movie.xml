@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.batsataqiya.jsonima.view.DetailMovie">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="300px"
+        android:layout_height="400px"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/img_Detail"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="CICICICIICICICICIC"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:id="@+id/txt_Judul"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="akakakakakakakakakakakakakak"
+        android:textStyle="bold"
+        android:id="@+id/txt_Tanggal"/>
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_Deskripsi"
+            android:textSize="15dp"
+            android:text="HADUUU"
+            />
+
+    </ScrollView>
+
+
+
+</LinearLayout>
